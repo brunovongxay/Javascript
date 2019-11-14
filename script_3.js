@@ -7,4 +7,5 @@ let user_number = prompt("Salut, bienvenue dans ma super pyramide ! Combien d'é
      let line = spaceArray.join("") + signArray.join(""); // array.join(",")
      console.log(line);//display the pyramid
    }
-   console.log('TADAM !');
+  console.log();
+  console.log('Voici ta pyramide');
