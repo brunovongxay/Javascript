@@ -34,7 +34,7 @@ const books = [
   {
     let book133712Index = books.findIndex(element => element.id === 133712)
     let deletedBook = books[book133712Index].title
-    books.splice(book133712Index,0)
+    books.shift(book133712Index,0)
     console.log(books)
     console.log(`${deletedBook} a été supprimé`)
   }
